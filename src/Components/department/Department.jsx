@@ -1,11 +1,19 @@
+import HodDesk from './HodDesk';
+import HodImage from './HodImage';
 import Sidebar from './Sidebar';
-// import Carosuel from './Carousel';
-// import HodImage from './HodImage';
-// import HodDesk from './HodDesk';
-// import VissionMission from './VisionMission';
+import VisionMission from './VisionMission';
 
 export default function Department() {
-  return (
-    <Sidebar/>
-  );
+    return (
+        <>
+            <div className='flex gap-6 pt-12'>
+                <Sidebar />
+                <div className="right w-[900px]">
+                    <HodImage />
+                    <VisionMission />
+                    <HodDesk/>
+                </div>
+            </div>
+        </>
+    );
 }
