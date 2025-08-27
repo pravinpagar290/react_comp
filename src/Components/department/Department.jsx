@@ -8,7 +8,7 @@ export default function Department() {
         <>
             <div className='flex gap-6 pt-12'>
                 <Sidebar />
-                <div className="right w-[900px]">
+                <div className="right w-[900px] mx-auto">
                     <HodImage />
                     <VisionMission />
                     <HodDesk/>

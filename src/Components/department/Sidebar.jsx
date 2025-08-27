@@ -19,7 +19,7 @@ const sidebarLinks = [
 
 export default function Sidebar() {
   return (
-    <aside className="w-[300px]">
+    <aside className="w-[300px] text-center ml-[50px]">
       <nav className="flex flex-col gap-1 bg-[#F5F5F5] border border-gray-300 rounded">
         {sidebarLinks.map((link) => (
           <a
